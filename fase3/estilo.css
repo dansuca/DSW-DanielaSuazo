@@ -1,0 +1,136 @@
+footer{
+    background-color: black;
+    color: beige;
+    text-align: center;
+}
+#pa1{
+    color:rgb(3, 43, 43)
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 10 px;
+   }
+.container2{
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+   }
+
+
+.centrado{
+    text-align: justify;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+article{
+    background-color: #abefab;
+    grid-column: 1/4 ;
+    margin: 0px 10px 0px 112px;
+    
+}
+
+aside{
+    background-color: #ababef;
+    grid-column: 4/5 ;
+    margin: 0px 112px 0px 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+nav{
+    
+    margin: 0px 112px 0px 112px;
+    
+    background-color: rgb(205, 148, 162);
+    
+   }
+
+
+footer{
+    background-color: rgb(205, 148, 162);
+    margin: 0px 112px 0px 112px;
+    
+}
+
+p {
+    margin: 20px;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: 0px 112px 0px 112px;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+      
+  }
+
+h1 {
+    font-style:italic;
+    font-weight:bold;
+    font-size:2em;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+  }
+
+  .menu{
+  
+    text-align: center;
+    
+      
+  }
+nav ul{
+        
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+
+}
+
+  
+  *{padding:0px;box-sizing:border-box;font-size:14 px;}  
+ 
+ 
+ 
+  nav a{
+        text-decoration:none;
+        color:inherit;
+        font-size:14px;
+        font-family:'Helvetica','Verdana','Monaco',sans-serif;
+        
+
+        
+        
+        }
+              
+  nav li{
+        
+        display:inline-block;
+        width:150px;
+        height:30px;
+        padding:5px 10px;
+        background-color: rgb(205, 148, 162);
+        border:1px solid rgb(205, 148, 162);
+        text-align:center;
+        color: black;
+        position:relative;
+}
+            
+nav li:hover{
+      background-color:aqua;
+      color:#000;
+      }
+            
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+}
